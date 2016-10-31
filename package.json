@@ -1,0 +1,56 @@
+{
+  "name": "budo-gulp-starter",
+  "version": "1.0.0",
+  "description": "a starter kit with Budo, LESS and Gulp",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "dat-gui": "*",
+    "gsap": "^1.19.0",
+    "stats.js": "mrdoob/stats.js",
+    "three": "^0.81.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "*",
+    "browserify": "^13.1.0",
+    "budo": "^9.0.0",
+    "eslint": "^3.9.0",
+    "glslify": "^5.1.0",
+    "gulp": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-streamify": "*",
+    "gulp-uglify": "^2.0.0",
+    "minimist": "*",
+    "node-reset-scss": "*",
+    "vinyl-source-stream": "*"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "open": "gulp watch --open",
+    "start": "gulp watch",
+    "build": "gulp bundle --production"
+  },
+  "keywords": [
+    "budo",
+    "html",
+    "css",
+    "sass",
+    "live",
+    "reload"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/budo-gulp-starter.git"
+  },
+  "homepage": "https://github.com/mattdesl/budo-gulp-starter",
+  "bugs": {
+    "url": "https://github.com/mattdesl/budo-gulp-starter/issues"
+  }
+}
