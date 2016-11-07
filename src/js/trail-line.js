@@ -9,6 +9,4 @@ export default class TraiLine extends THREE.Mesh {
 
         super(geo, mat)
     }
-    createLine()
-
 }

@@ -77,7 +77,7 @@ export default class RandomLine extends THREE.Mesh {
 
       this.curCount = THREE.Math.randInt(-40, -10);
       this.lineLength = THREE.Math.randInt ( 20, 80 );
-      this.maxCount = THREE.Math.randInt ( 150, 200 );
+      this.maxCount = THREE.Math.randInt ( 400, 600 );
       var geometry = new THREE.Geometry();
 
       // console.log(this.points.anchor);
@@ -93,7 +93,7 @@ export default class RandomLine extends THREE.Mesh {
   updateLine(){
       this.curCount = THREE.Math.randInt(-40, -10);
       // this.lineLength = 20; //THREE.Math.randInt ( 20, 80 );
-      this.maxCount = 100; //THREE.Math.randInt ( 150, 200 );
+      this.maxCount = 500; //THREE.Math.randInt ( 150, 200 );
 
       this.points = this.getRandomPoints();
 
